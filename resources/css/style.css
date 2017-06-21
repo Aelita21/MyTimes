@@ -35,18 +35,18 @@
   justify-content: space-around;
 }
 .column-large {
-  display: inline-block;
+  display: flex;
   width: 630px;
   margin-left: 10px;
   border: 2px solid;
 }
 .column-medium {
-  display: inline-block;
+  display: flex;
   width: 300px;
   margin-left: 10px;
 }
 .colum-small {
-  display: inline-block;
+  display: flex;
   width: 240px;
   margin-left: 10px;
 }
