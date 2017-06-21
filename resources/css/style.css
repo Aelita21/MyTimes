@@ -34,20 +34,20 @@
   padding: 10px;
   justify-content: space-around;
 }
-.main column-large {
-  width: 630px;
+.column-large {
   display: inline-block;
+  width: 630px;
   margin-left: 10px;
   border: 2px solid;
 }
 .column-medium {
-  width: 300px;
   display: inline-block;
+  width: 300px;
   margin-left: 10px;
 }
 .colum-small {
-  width: 240px;
   display: inline-block;
+  width: 240px;
   margin-left: 10px;
 }
 .article-one {
