@@ -31,27 +31,40 @@
 }
 .main {
   display: flex;
+  margin-left: 10px;
   padding: 10px;
-  justify-content: space-around;
+
 }
 .column-large {
-  display: flex;
-  width: 630px;
-  margin-left: 10px;
-  border: 2px solid;
+  display: inline-block;
+  min-width: 630px;
+  flex-direction: column;
 }
 .column-medium {
-  display: flex;
-  width: 300px;
-  margin-left: 10px;
+  display: inline-block;
+  min-width: 300px;
+  flex-direction: column;
+
 }
-.colum-small {
-  display: flex;
-  width: 240px;
-  margin-left: 10px;
+.column-small {
+  display: inline-block;
+  min-width: 240px;
+  flex-direction: column;
 }
 .article-one {
   border: 1px solid;
+}
+.column-large .article-one h2 {
+  color: white;
+  font-family: Georgia;
+  font-size: 40px;
+  font-style: bold;
+  
+  padding: 20px;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png") no-repeat left center;
+  background-size: cover;
+  width: 629px;
+  height: 300px;
 }
 .article-two {
   border: 1px solid;
