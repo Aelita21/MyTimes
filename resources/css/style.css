@@ -20,7 +20,6 @@
   padding: 10px;
   display: inline-flex;
   margin-left: 20px;
-  border: 1px solid;
   align-items: center;
   width: 200px;
   flex-grow: 2;
@@ -32,14 +31,91 @@
 .main {
   display: flex;
   font-family: Georgia;
-  padding: 20px;
+  padding: 5px;
+  justify-content: center;
 }
-.column-large, .column-medium, .column-small {
-  border: 1px solid;
+.column-large {
+  display: flex;
+  margin: 10px;
+  max-width: 630px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  }
+.column-medium {
+  display:inline-block;
+  margin: 10px;
+  max-width: 300px;
+  }
+.column-small {
+  display: inline-block;
+  margin: 10px;
+  max-width: 240px;
+  flex-direction: column;
 }
-.headline {
-  border: 1px solid;
+p {
+  font-size: 17px;
 }
-h2, h3 {
-  border: 1px solid;
+h3 {
+  font-size: 20px;
+}
+.main-headline h2 {
+  display: flex;
+  background: url("../images/main-story.png") no-repeat  center;
+  background-size: auto;
+  width: 629px;
+  height: 300px;
+  color: white;
+  font-size: 40px;
+}
+.article-one {
+  display: inline-block;
+  max-width: 299px;
+}
+.article-two h2 {
+  display: flex;
+  background: url("../images/img-story-2.png") no-repeat  center;
+  background-size: cover;
+  width: 299px;
+  height: 300px;
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.article-three {
+  display: inline-block;
+  max-width: 299px;
+}
+.article-four h2 {
+  display: flex;
+  background: url("../images/cameraman.png") no-repeat;
+  background-size: cover;
+  width: 299px;
+  height: 300px;
+  color: white;
+  font-size: 30px;
+
+}
+.headline-two h2 {
+  display: flex;
+  background: url("../images/img-story-1.png") no-repeat;
+  background-size: cover;
+  width: 299px;
+  height: 300px;
+  color: white;
+  font-size: 30px;
+}
+.headline li {
+  display: flex;
+  line-height: 4em;
+  background-color: WhiteSmoke;
+  background-size: cover;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-top: 1px solid;
+}
+.headline h3 {
+  font-size: 16px;
+  font-weight: bold;
 }
